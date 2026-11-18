@@ -1,0 +1,102 @@
+{
+  "training_examples": 123,
+  "held_out_examples": 42,
+  "held_out_accuracy": 0.8333,
+  "held_out_report": {
+    "A": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571428571428571,
+      "support": 3.0
+    },
+    "B": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 4.0
+    },
+    "C": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "D": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "E": {
+      "precision": 0.6,
+      "recall": 0.75,
+      "f1-score": 0.6666666666666666,
+      "support": 4.0
+    },
+    "F": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.5,
+      "support": 3.0
+    },
+    "G": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "H": {
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1-score": 0.75,
+      "support": 4.0
+    },
+    "I": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 4.0
+    },
+    "J": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "OTHER": {
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1-score": 0.75,
+      "support": 4.0
+    },
+    "accuracy": 0.8333333333333334,
+    "macro avg": {
+      "precision": 0.859090909090909,
+      "recall": 0.8257575757575757,
+      "f1-score": 0.8196248196248196,
+      "support": 42.0
+    },
+    "weighted avg": {
+      "precision": 0.8583333333333333,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8263416477702191,
+      "support": 42.0
+    }
+  },
+  "classes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "OTHER"
+  ],
+  "seed": 42,
+  "method": "TF-IDF word and character n-grams + Logistic Regression",
+  "training_data_note": "Bundled manually labelled NDA clause paraphrase examples plus unrelated OTHER examples. Synthetic educational data; not a representative legal corpus."
+}

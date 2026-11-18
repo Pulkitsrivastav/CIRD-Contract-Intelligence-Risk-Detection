@@ -1,0 +1,295 @@
+{
+  "library_metadata": {
+    "contract_type": "Mutual Non-Disclosure Agreement (NDA)",
+    "version": "1.0",
+    "description": "Educational reference baseline of 10 standard NDA clause categories for preliminary academic contract screening.",
+    "disclaimer": "This reference library is an educational baseline and does not constitute authoritative legal standards or legal advice."
+  },
+  "clauses": [
+    {
+      "id": "A",
+      "name": "Definition of Confidential Information",
+      "weight": 1.2,
+      "standard_description": "Clearly defines what constitutes Confidential Information, covering proprietary business, financial, technical, customer, and operational data disclosed in written, electronic, or oral form.",
+      "expected_purpose": "Establishes clear boundaries on what information is protected under the agreement so both parties understand their obligations.",
+      "keywords": [
+        "confidential information",
+        "proprietary information",
+        "trade secrets",
+        "technical data",
+        "business plans",
+        "financial information",
+        "customer lists",
+        "oral",
+        "written",
+        "electronic",
+        "disclosing party"
+      ],
+      "important_elements": [
+        "Covers written, electronic, and oral disclosures",
+        "Includes business, technical, financial, and operational information",
+        "Identifies marking requirements or reasonable expectation of confidentiality"
+      ],
+      "red_flag_indicators": [
+        "all information whatsoever without limitation",
+        "sole discretion of disclosing party",
+        "oral information excluded entirely",
+        "sole discretion",
+        "all information whatsoever"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Permitted Use and Purpose",
+      "weight": 1.1,
+      "standard_description": "Restricts the Receiving Party to using Confidential Information solely for evaluating or pursuing a specific, mutually agreed business purpose.",
+      "expected_purpose": "Prevents the recipient from exploiting shared sensitive data for competing products, unauthorized commercial gain, or unrelated projects.",
+      "keywords": [
+        "permitted use",
+        "solely for the purpose",
+        "evaluation",
+        "business relationship",
+        "authorized purpose",
+        "restricted use",
+        "purpose of evaluating",
+        "potential transaction"
+      ],
+      "important_elements": [
+        "Explicitly defines the limited business purpose",
+        "Prohibits reverse engineering or commercial exploitation outside the purpose",
+        "Applies mutual restrictions to both parties"
+      ],
+      "red_flag_indicators": [
+        "any purpose",
+        "unrestricted use",
+        "royalty-free license to use"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Exclusions from Confidentiality",
+      "weight": 1.2,
+      "standard_description": "Carves out standard exceptions where confidentiality duties do not apply: information already public, previously known to the recipient, independently developed, or lawfully received from a third party.",
+      "expected_purpose": "Protects the receiving party from unfair liability over information that is public knowledge or independently created without using the discloser's secrets.",
+      "keywords": [
+        "exclusions",
+        "exceptions",
+        "publicly available",
+        "public domain",
+        "already known",
+        "independently developed",
+        "third party",
+        "without breach",
+        "prior to disclosure"
+      ],
+      "important_elements": [
+        "Publicly available information (not through recipient's breach)",
+        "Information already in recipient's lawful possession prior to disclosure",
+        "Information independently developed without reference to confidential data",
+        "Information lawfully obtained from an authorized third party"
+      ],
+      "red_flag_indicators": [
+        "no exclusions",
+        "regardless of public availability"
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Confidentiality Period",
+      "weight": 1.2,
+      "standard_description": "Specifies a clear, reasonable duration (typically 2 to 5 years from disclosure or termination) during which confidentiality obligations remain legally binding.",
+      "expected_purpose": "Defines a predictable time horizon for compliance rather than imposing open-ended or perpetual record-keeping burdens.",
+      "keywords": [
+        "confidentiality period",
+        "duration",
+        "years",
+        "survive",
+        "survival",
+        "remain in effect",
+        "term of confidentiality",
+        "from the date of disclosure",
+        "after termination"
+      ],
+      "important_elements": [
+        "States a specific number of years (commonly 2 to 5 years)",
+        "Clarifies whether duration runs from disclosure date or agreement termination",
+        "Distinguishes general confidential data from trade secrets if applicable"
+      ],
+      "red_flag_indicators": [
+        "in perpetuity",
+        "perpetual",
+        "indefinitely",
+        "forever",
+        "99 years",
+        "without any expiration date",
+        "strictly secret in perpetuity"
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Return or Destruction of Information",
+      "weight": 1.0,
+      "standard_description": "Requires the Receiving Party to promptly return or securely destroy all Confidential Information and copies upon written request or termination of the agreement.",
+      "expected_purpose": "Ensures sensitive files and copies do not remain indefinitely with the other party after discussions end.",
+      "keywords": [
+        "return or destroy",
+        "destruction",
+        "return of materials",
+        "written certification",
+        "copies",
+        "upon request",
+        "certify destruction",
+        "erase",
+        "delete"
+      ],
+      "important_elements": [
+        "Covers physical documents, electronic files, and derivative copies",
+        "Triggered upon termination or written request",
+        "Optional written certification of destruction and routine backup exception"
+      ],
+      "red_flag_indicators": [
+        "may retain indefinitely",
+        "no obligation to return"
+      ]
+    },
+    {
+      "id": "F",
+      "name": "Permitted Disclosure / Legal Compulsion",
+      "weight": 1.0,
+      "standard_description": "Allows disclosure to authorized employees, advisors, or legal counsel on a need-to-know basis, as well as disclosures compelled by court order or law with prior notice.",
+      "expected_purpose": "Enables practical internal evaluation by advisors and prevents breach when a party is legally subpoenaed by a court or regulator.",
+      "keywords": [
+        "permitted disclosure",
+        "compelled by law",
+        "court order",
+        "subpoena",
+        "representatives",
+        "need to know",
+        "legal advisors",
+        "prior written notice",
+        "governmental authority"
+      ],
+      "important_elements": [
+        "Permits sharing with employees/advisors bound by similar confidentiality",
+        "Allows disclosure required by law, subpoena, or regulatory order",
+        "Requires prompt prior notice (where legally permitted) to allow protective orders"
+      ],
+      "red_flag_indicators": [
+        "prohibited from disclosing to legal counsel",
+        "no notice required"
+      ]
+    },
+    {
+      "id": "G",
+      "name": "Security and Safeguarding",
+      "weight": 1.0,
+      "standard_description": "Requires the Receiving Party to protect Confidential Information using at least the same degree of care it uses for its own confidential data, and no less than reasonable care.",
+      "expected_purpose": "Establishes an objective baseline of technical and organizational security safeguards against unauthorized access or leaks.",
+      "keywords": [
+        "reasonable care",
+        "degree of care",
+        "safeguard",
+        "security",
+        "unauthorized access",
+        "protect",
+        "precautions",
+        "unauthorized disclosure",
+        "security measures"
+      ],
+      "important_elements": [
+        "Standard of 'reasonable care' (not below own proprietary standard)",
+        "Protection against unauthorized access, theft, or disclosure",
+        "Prompt notification obligation in the event of a security breach"
+      ],
+      "red_flag_indicators": [
+        "strict liability for any cyberattack",
+        "no security obligation"
+      ]
+    },
+    {
+      "id": "H",
+      "name": "Liability and Remedies",
+      "weight": 1.2,
+      "standard_description": "Outlines legal remedies available in case of breach, typically recognizing injunctive or equitable relief alongside monetary damages without disproportionate unilateral penalties.",
+      "expected_purpose": "Provides enforceable remedies to stop unauthorized leaks quickly while maintaining balanced liability exposure between both parties.",
+      "keywords": [
+        "remedies",
+        "injunctive relief",
+        "equitable relief",
+        "breach",
+        "damages",
+        "irreparable harm",
+        "liability",
+        "indemnification",
+        "specific performance"
+      ],
+      "important_elements": [
+        "Acknowledges irreparable harm and availability of injunctive relief",
+        "Applies mutually to both parties",
+        "Avoids uncapped one-sided indemnification or automatic punitive penalties"
+      ],
+      "red_flag_indicators": [
+        "unlimited liability",
+        "liquidated damages of",
+        "solely liable",
+        "waives all defenses",
+        "automatic liquidated damages",
+        "bear unlimited liability"
+      ]
+    },
+    {
+      "id": "I",
+      "name": "Governing Law and Jurisdiction",
+      "weight": 1.0,
+      "standard_description": "Specifies which jurisdiction's laws govern the interpretation of the NDA and designates the courts or venue for resolving disputes.",
+      "expected_purpose": "Eliminates uncertainty and costly jurisdictional disputes if a disagreement arises between parties in different locations.",
+      "keywords": [
+        "governing law",
+        "jurisdiction",
+        "venue",
+        "courts of",
+        "laws of",
+        "dispute resolution",
+        "construed in accordance",
+        "arbitration",
+        "exclusive jurisdiction"
+      ],
+      "important_elements": [
+        "Identifies specific state, province, or country law",
+        "Designates clear court venue or arbitration forum",
+        "Applies consistently to both parties"
+      ],
+      "red_flag_indicators": [
+        "foreign jurisdiction unrelated to either party",
+        "disclosing party may sue in any court worldwide",
+        "may sue in any court worldwide"
+      ]
+    },
+    {
+      "id": "J",
+      "name": "Termination",
+      "weight": 1.0,
+      "standard_description": "Defines the overall term of the agreement, how either party may terminate it (typically via written notice), and confirms that confidentiality obligations survive termination.",
+      "expected_purpose": "Provides a clean exit mechanism while ensuring pre-termination confidential disclosures remain protected.",
+      "keywords": [
+        "termination",
+        "terminate",
+        "written notice",
+        "term of agreement",
+        "survive termination",
+        "survival",
+        "expiration",
+        "effective date"
+      ],
+      "important_elements": [
+        "States agreement duration or termination upon written notice",
+        "Explicit survival clause preserving confidentiality duties post-termination",
+        "Mutual termination rights for both parties"
+      ],
+      "red_flag_indicators": [
+        "cannot be terminated",
+        "only disclosing party may terminate"
+      ]
+    }
+  ]
+}
